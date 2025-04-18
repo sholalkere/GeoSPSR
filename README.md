@@ -21,3 +21,16 @@ To see an example of how to use our package, see `experiments/example.py` (Note:
 - `libigl`
 - `gpytoolbox`
 - `https://github.com/skoch9/meshplot`
+
+#### Citation
+```
+@misc{geospsr,
+      title={Stochastic Poisson Surface Reconstruction with One Solve using Geometric Gaussian Processes}, 
+      author={Sidhanth Holalkere and David S. Bindel and Silvia Sellán and Alexander Terenin},
+      year={2025},
+      eprint={2503.19136},
+      archivePrefix={arXiv},
+      primaryClass={cs.GR},
+      url={https://arxiv.org/abs/2503.19136}, 
+}
+```
