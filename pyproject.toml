@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geospsr"
+version = "0.1"
+authors = [
+    { name = "Sidhanth Holalkere", email = "sh844@cornell.edu" },
+]
+
+description = "Stochastic Poisson Surface Reconstruction with One Solve using Geometric Gaussian Processes"
+requires-python = ">3.9"
+
+dependencies = [
+    "jax",
+    "flax",
+    "tqdm",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+]
+
+[tool.setuptools]
+package-dir = {"geospsr" = "geospsr"}
