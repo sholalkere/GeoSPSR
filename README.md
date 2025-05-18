@@ -1,5 +1,7 @@
 # Stochastic Poisson Surface Reconstruction with One Solve using Geometric Gaussian Processes
 
+Official Jax implementation of the ICML 2025 paper
+
 ![Teaser Image](./assets/teaser.png)
 
 **Stochastic Poisson Surface Reconstruction with One Solve using Geometric Gaussian Processes**
